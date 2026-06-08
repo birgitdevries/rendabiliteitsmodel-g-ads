@@ -77,12 +77,12 @@
     <div class="rmb-inscol">
       <p class="rmb-inscol-title">Gedeelde parameters</p>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">AOV (€)</span><input class="rmb-fi" id="f-aov" type="text" inputmode="decimal" value="400" min="1"></div>
-        <input type="range" id="s-aov" min="100" max="2000" step="10" value="400" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">AOV (€)</span><input class="rmb-fi" id="f-aov" type="text" inputmode="decimal" value="50" min="1"></div>
+        <input type="range" id="s-aov" min="100" max="2000" step="10" value="50" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">Productmarge (%)</span><input class="rmb-fi" id="f-margin" type="text" inputmode="decimal" value="37" min="1" max="100"></div>
-        <input type="range" id="s-margin" min="1" max="80" step="1" value="37" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Productmarge (%)</span><input class="rmb-fi" id="f-margin" type="text" inputmode="decimal" value="30" min="1" max="100"></div>
+        <input type="range" id="s-margin" min="1" max="80" step="1" value="30" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
         <div class="rmb-hint">Verkoopprijs min inkoopprijs min directe verkoopkosten, gedeeld door verkoopprijs.<br>Voorbeeld: €400 − €250 − €8 / €400 = <strong style="color:#5f5e5a;">35,5%</strong></div>
       </div>
       <div class="rmb-fg">
@@ -90,12 +90,12 @@
         <input type="range" id="s-return" min="0" max="80" step="1" value="0" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg rmb-close-group" id="rmb-close-group-global" style="display:none;">
-        <div class="rmb-fr"><span class="rmb-fl">Close rate (%)</span><input class="rmb-fi" id="f-close1" type="text" inputmode="decimal" value="30" min="0.1" step="1"></div>
-        <input type="range" id="s-close1" min="1" max="100" step="1" value="30" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Close rate (%)</span><input class="rmb-fi" id="f-close1" type="text" inputmode="decimal" value="0" min="0.1" step="1"></div>
+        <input type="range" id="s-close1" min="1" max="100" step="1" value="0" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">Maandelijkse fee (€)</span><input class="rmb-fi" id="f-fee" type="text" inputmode="decimal" value="1300" min="0"></div>
-        <input type="range" id="s-fee" min="0" max="5000" step="50" value="1300" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Maandelijkse fee (€)</span><input class="rmb-fi" id="f-fee" type="text" inputmode="decimal" value="0" min="0"></div>
+        <input type="range" id="s-fee" min="0" max="5000" step="50" value="0" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
     </div>
 
@@ -103,12 +103,12 @@
     <div class="rmb-inscol">
       <p class="rmb-inscol-title">Scenario 1 — opstart</p>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b1" type="text" inputmode="decimal" value="3000" min="1"></div>
-        <input type="range" id="s-b1" min="1000" max="15000" step="500" value="3000" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b1" type="text" inputmode="decimal" value="2000" min="1"></div>
+        <input type="range" id="s-b1" min="1000" max="15000" step="500" value="2000" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc1" type="text" inputmode="decimal" value="0.70" min="0.01" step="0.05"></div>
-        <input type="range" id="s-cpc1" min="0.10" max="5.00" step="0.05" value="0.70" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc1" type="text" inputmode="decimal" value="0.50" min="0.01" step="0.05"></div>
+        <input type="range" id="s-cpc1" min="0.10" max="5.00" step="0.05" value="0.50" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
         <div class="rmb-fr"><span class="rmb-fl" id="rmb-cvr-label1">CVR (%)</span><input class="rmb-fi" id="f-cvr1" type="text" inputmode="decimal" value="1.0" min="0.1" step="0.1"></div>
@@ -125,12 +125,12 @@
     <div class="rmb-inscol">
       <p class="rmb-inscol-title">Scenario 2 — na optimalisatie</p>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b2" type="text" inputmode="decimal" value="3000" min="1"></div>
-        <input type="range" id="s-b2" min="1000" max="15000" step="500" value="3000" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b2" type="text" inputmode="decimal" value="2000" min="1"></div>
+        <input type="range" id="s-b2" min="1000" max="15000" step="500" value="2000" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc2" type="text" inputmode="decimal" value="1.00" min="0.01" step="0.05"></div>
-        <input type="range" id="s-cpc2" min="0.10" max="5.00" step="0.05" value="1.00" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc2" type="text" inputmode="decimal" value="0.50" min="0.01" step="0.05"></div>
+        <input type="range" id="s-cpc2" min="0.10" max="5.00" step="0.05" value="0.50" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
         <div class="rmb-fr"><span class="rmb-fl" id="rmb-cvr-label2">CVR (%)</span><input class="rmb-fi" id="f-cvr2" type="text" inputmode="decimal" value="3.0" min="0.1" step="0.1"></div>
@@ -138,8 +138,8 @@
       </div>
       <div id="rmb-close-group2" style="display:none;"></div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">CTR (%)</span><input class="rmb-fi" id="f-ctr2" type="text" inputmode="decimal" value="13" min="0.1" step="0.1"></div>
-        <input type="range" id="s-ctr2" min="0.5" max="30" step="0.1" value="13" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">CTR (%)</span><input class="rmb-fi" id="f-ctr2" type="text" inputmode="decimal" value="12" min="0.1" step="0.1"></div>
+        <input type="range" id="s-ctr2" min="0.5" max="30" step="0.1" value="12" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
     </div>
 
@@ -147,12 +147,12 @@
     <div class="rmb-inscol">
       <p class="rmb-inscol-title">Scenario 3 — verdere groei</p>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b3" type="text" inputmode="decimal" value="9500" min="1"></div>
-        <input type="range" id="s-b3" min="1000" max="20000" step="500" value="9500" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">Budget/maand (€)</span><input class="rmb-fi" id="f-b3" type="text" inputmode="decimal" value="8000" min="1"></div>
+        <input type="range" id="s-b3" min="1000" max="20000" step="500" value="8000" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc3" type="text" inputmode="decimal" value="1.00" min="0.01" step="0.05"></div>
-        <input type="range" id="s-cpc3" min="0.10" max="5.00" step="0.05" value="1.00" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">CPC (€)</span><input class="rmb-fi" id="f-cpc3" type="text" inputmode="decimal" value="0.50" min="0.01" step="0.05"></div>
+        <input type="range" id="s-cpc3" min="0.10" max="5.00" step="0.05" value="0.50" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
       <div class="rmb-fg">
         <div class="rmb-fr"><span class="rmb-fl" id="rmb-cvr-label3">CVR (%)</span><input class="rmb-fi" id="f-cvr3" type="text" inputmode="decimal" value="3.0" min="0.1" step="0.1"></div>
@@ -160,8 +160,8 @@
       </div>
       <div id="rmb-close-group3" style="display:none;"></div>
       <div class="rmb-fg">
-        <div class="rmb-fr"><span class="rmb-fl">CTR (%)</span><input class="rmb-fi" id="f-ctr3" type="text" inputmode="decimal" value="13" min="0.1" step="0.1"></div>
-        <input type="range" id="s-ctr3" min="0.5" max="30" step="0.1" value="13" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
+        <div class="rmb-fr"><span class="rmb-fl">CTR (%)</span><input class="rmb-fi" id="f-ctr3" type="text" inputmode="decimal" value="12" min="0.1" step="0.1"></div>
+        <input type="range" id="s-ctr3" min="0.5" max="30" step="0.1" value="12" style="width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#e0dfd9;border-radius:2px;outline:none;cursor:pointer;display:block;margin:4px 0;">
       </div>
     </div>
 
@@ -250,13 +250,13 @@ function rmbCalc() {
     if (!isNaN(v)) s.value=Math.min(Math.max(v,parseFloat(s.min)),parseFloat(s.max));
   });
 
-  var aov=g('f-aov')||400, marginPct=g('f-margin')||37, retRate=g('f-return')||0, fee=g('f-fee');
-  if(fee===null) fee=1300;
-    var closeRate = g('f-close1')||100;
+  var aov=g('f-aov')||50, marginPct=g('f-margin')||30, retRate=g('f-return')||0, fee=g('f-fee');
+  if(fee===null) fee=0;
+    var closeRate = g('f-close1')||0;
   var params=[
-    {b:g('f-b1')||3000,cpc:g('f-cpc1')||0.70,cvr:g('f-cvr1')||1.0,close:closeRate,ctr:g('f-ctr1')||10},
-    {b:g('f-b2')||3000,cpc:g('f-cpc2')||1.00,cvr:g('f-cvr2')||3.0,close:closeRate,ctr:g('f-ctr2')||13},
-    {b:g('f-b3')||9500,cpc:g('f-cpc3')||1.00,cvr:g('f-cvr3')||3.0,close:closeRate,ctr:g('f-ctr3')||13}
+    {b:g('f-b1')||2000,cpc:g('f-cpc1')||0.50,cvr:g('f-cvr1')||1.0,close:closeRate,ctr:g('f-ctr1')||10},
+    {b:g('f-b2')||2000,cpc:g('f-cpc2')||0.50,cvr:g('f-cvr2')||3.0,close:closeRate,ctr:g('f-ctr2')||12},
+    {b:g('f-b3')||8000,cpc:g('f-cpc3')||0.50,cvr:g('f-cvr3')||3.0,close:closeRate,ctr:g('f-ctr3')||12}
   ];
 
   var missing=[];
